@@ -28,8 +28,7 @@ class MensajesPlantilla extends Mailable
      */
     public function build()
     {
-        return $this->from("joseascurra123@hotmail.com")
-                    ->subject("Web Developer")
+        return $this->subject("Web Developer")
                     ->markdown('mensajes');
     }
 }
